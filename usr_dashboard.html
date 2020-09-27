@@ -1,0 +1,194 @@
+<head>
+	<style>
+		p,
+		button {
+			font-size: 1em
+		}
+
+		body {
+			background-image: url('https://previews.123rf.com/images/romastudio/romastudio1603/romastudio160300203/54088672-healthy-food-background-studio-photo-of-different-fruits-and-vegetables-on-white-wooden-table-high-r.jpg');
+			background-size: 1100px 900px;
+			background-repeat: repeat;
+		}
+
+		h1 {
+			background-color: white;
+			width: 500;
+			opacity: 0.8;
+			color: maroon;
+		}
+
+		p {
+			background-color: white;
+			width: 500;
+			padding: 10px;
+			border: 3px solid maroon;
+			margin: 5;
+			opacity: 0.8;
+		}
+
+		.container {
+			position: relative;
+			width: 100%;
+		}
+
+		.image {
+			opacity: 1;
+			border: solid black;
+			display: block;
+			width: 90%;
+			height: 50%;
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+
+		.container:hover .image {
+			opacity: 0.7;
+		}
+
+		.container:hover .middle {
+			opacity: 1;
+		}
+
+		.middle {
+			transition: .5s ease;
+			opacity: 0;
+			border: solid black;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+		}
+
+		.text {
+			background-color: white;
+			color: black;
+			font-size: 13px;
+			padding: 10px 10px;
+		}
+	</style>
+	<title>dashboard</title>
+</head>
+
+<body>
+	<center>
+		<h1> USER DASHBOARD </h1>
+	</center>
+	<center>
+		<p> <b> Welcome back! Here are some options for you today! Which of the following options look appealing to you?</b>
+		</p>
+	</center>
+	<form method="POST" enctype="application/x-www-form-urlencoded">
+		<table>
+			<tr>
+				<td>
+					<span><b><em>Veggie Wrap - Zebra Lounge</em></b></span><br>
+					<img src="https://www.foodiecrush.com/wp-content/uploads/2015/05/Hummus-Veggie-Wrap-foodiecrush.com-16-1-500x375.jpg" alt="Veggie Wrap - Zebra Lounge" width = "200" height = "150">
+					<select name="Interested 1" id="intr">
+          <option value="y">Yes</option>
+          <option value="n">No</option>
+          <option value="Maybe">Maybe</option>
+        </select> <br>
+      </td>
+				<td>
+					<span><b><em>Italian Sub - Zebra Lounge</em></b></span><br>
+					<img src="https://www.spendwithpennies.com/wp-content/uploads/2020/01/Italian-Sub-Sandwich-SpendWithPennies-8.jpg" alt="Sub" width = "130" height = "150">
+					<select name="Interested 2" id="intr">
+          <option value="y">Yes</option>
+          <option value="n">No</option>
+          <option value="Maybe">Maybe</option>
+        </select> <br>
+      </td>
+				<td>
+					<span><b><em>Ham Sandwich - Gingers Express</em></b></span><br>
+					<img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/3/2/2/RX-FNM_040111-Mayo-026_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382539804848.jpeg" width = "200" height = "150">
+					<select name="Interested 3" id="intr">
+          <option value="y">Yes</option>
+          <option value="n">No</option>
+          <option value="Maybe">Maybe</option>
+        </select> <br>
+      </td>
+				<td>
+					<span><b><em>Fruit and Nut Salad - Gingers Express</em></b></span><br>
+					<img src="https://www.spendwithpennies.com/wp-content/uploads/2016/05/Fruit-Nut-Spinach-Salad-21.jpg" alt="fruitnut" width = "140" height = "150">
+					<br>
+					<select name="Interested 4" id="intr">
+          <option value="y">Yes</option>
+          <option value="n">No</option>
+          <option value="Maybe">Maybe</option>
+        </select> <br>
+      </td>
+				<td>
+					<span><b><em>Chicken Caesar Wrap - Au Bon Pain</em></b></span><br>
+					<img src="https://www.iheartnaptime.net/wp-content/uploads/2017/04/Chicken-caesar-wrap-i-heart-naptime-7.jpg" width = "140" height = "150">
+					<select name="Interested 5" id="intr">
+          <option value="y">Yes</option>
+          <option value="n">No</option>
+          <option value="Maybe">Maybe</option>
+        </select> <br>
+      </td>
+			</tr>
+
+		</table>
+
+		<center>
+			<div><b>Choose a plan:</b><br>
+				<table>
+					<tr>
+						<td>
+							<div class="container">
+								<img src="https://i.pinimg.com/originals/e0/01/0f/e0010f14ddfe3e610b34475dc7b80b2c.jpg" class = "image">
+								<div class="middle">
+									<div class="text"> <b>Plan 1</b>
+										<br>
+										<div> <b>Breakfast:</b> Bagel Egg Sandwich - Exchange</div>
+										<div> <b>Lunch:</b> Ham Sandwich - Gingers Express</div>
+										<div> <b>Dinner:</b> Roasted Turkey Panini - Tazza D'Oro </div>
+										<button type="choose"><b>I like this plan!<b>
+                </div>
+            </div>
+          </td>
+          <td>
+            <div class = "container">
+              <img src="https://i.pinimg.com/originals/e0/01/0f/e0010f14ddfe3e610b34475dc7b80b2c.jpg" class = "image">
+                <div class="middle">
+                  <div class="text"> <b>Plan 2</b>
+                    <br> 
+                    <div> <b>Breakfast:</b> Croissant Egg Sandwich - Exchange</div>
+                    <div> <b>Lunch:</b> Gourmet Wrap - Stephanies</div>
+                    <div> <b>Dinner:</b> Fruit and Nut Salad - Gingers Express </div>
+                    <button type="choose"><b>I like this plan!<b>
+                  </div>
+                </div>
+            </div>
+          </td>
+          <td>
+            <div class = "container">
+              <img src="https://i.pinimg.com/originals/e0/01/0f/e0010f14ddfe3e610b34475dc7b80b2c.jpg" class = "image">
+                <div class="middle">
+                  <div class="text"> <b>Plan 3</b>
+                    <br> 
+                    <div> <b>Breakfast:</b> Egg for Omelet - Schatz</div>
+                    <div> <b>Lunch:</b> Ham Sandwich - Gingers Express</div>
+                    <div> <b>Dinner:</b> Chicken Caesar wrap - Au Bon Pain </div>
+                    <button type="choose"><b>I like this plan!<b>
+                  </div>
+                </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+  </center>
+    <form action="/feedback" method="get">
+      <center><button type="submit" formaction="/feedback"><b>Submit Preferences<b></button> </p>
+										</b>
+		</center>
+	</form>
+	</form>
+
+
+</body>
+
+</html>

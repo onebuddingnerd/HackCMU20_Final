@@ -1,0 +1,112 @@
+<head>
+	<style>
+		p,
+		button {
+			font-size: 1em
+		}
+
+		body {
+			background-image: url('https://hhp-blog.s3.amazonaws.com/2020/02/healthy-eating.jpg');
+			width: 1000;
+			height: 400;
+			background-repeat: repeat;
+		}
+
+		h1 {
+			background-color: white;
+			width: 500;
+			opacity: 0.8;
+		}
+
+		div {
+			background-color: white;
+			width: 500px;
+			padding: 10px;
+			border: 3px solid maroon;
+			margin: 5;
+			opacity: 0.8;
+		}
+	</style>
+
+	<title>setting up</title>
+</head>
+
+<body>
+	<center>
+		<h1=style="color:block"> Set up user profile </h1>
+		<div style="color:black">
+			<p> <b> Welcome to FoodQuest! </b> </p>
+			<p> In order to help us better choose resteraunts for you that best fit your needs, please fill out the
+				information below.</p>
+		</div>
+	</center>
+
+	<form method="POST" enctype="application/x-www-form-urlencoded">
+		<center>
+			<div style="color:black">
+				<span>Please select your gender:</span>
+				<select name="Gender" id="gndr">
+		  		<option value="male">Male</option>
+		  		<option value="female">Female</option>
+		  		<option value="prefer not to say">Prefer Not To Say</option>
+			</select> <br>
+
+				<span>Height (in inches):</span>
+				<input name="height"> <br>
+
+				<span>Weight (in lbs):</span>
+				<input name="weight"> <br><br>
+
+				<span>Would you like to...?</span>
+				<select name="weightplan" id="plan">
+		    	<option value="Lose weight">Lose Weight</option>
+		  		<option value="Maintain Weight">Maintain Weight</option>
+		  		<option value="Gain Weight">Gain Weight</option>
+		  		<option value="No preference">No Preference</option>
+			</select> <br><br>
+
+				<span>What is your favorite genre of food?</span>
+				<select name="What is your favorite genre of food?" id="genre">
+		    	<option value="none">None</option>
+		  		<option value="asian">Asian</option>
+		  		<option value="mexican">Mexican</option>
+		  		<option value="italian">Italian</option>
+		  		<option value="indian">Indian</option>
+		  		<option value="thai">Thai</option>
+		  		<option value="chinese">Chinese</option>
+			</select> <br>
+
+				<span>If none of the above, enter your favorite genre below:</span>
+				<input name="genre"> <br><br>
+
+				<span>Would you like to eat...?</span>
+				<select name="on/off campus?" id="location">
+		    	<option value="no preference">No Preference</option>
+		    	<option value="on campus">On Campus</option>
+		  		<option value="off campus">Off Campus</option>	
+			</select> <br><br>
+
+				<span>Typical Activity Level</span>
+				<select name="activity" id="act">
+		    	<option value="little">little (0-1 days)</option>
+		    	<option value="light">light (1-2 days)</option>
+		  		<option value="moderate">moderate (3-5 days)</option>	
+		  		<option value="high">high (6-7 days)</option>	
+			</select> <br><br>
+
+				<span>Age:</span>
+				<input name="age"> <br><br>
+
+				<form action="/dashboard" method="get">
+					<button type="submit" formaction="/dashboard">Sign Up!</button>
+				</form>
+			</div>
+		</center>
+	</form><br>
+
+
+
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+﻿Name,Time,Restaurant,Group,Cal,Carbs,Protein,Fat
+Asian Noodle Salad,Breakfast,Gingers Express,Salads,140,28,5,1
+Brocoli Bacon Salad,Breakfast,Gingers Express,Salads,80,6,4,5
+Caesar Salad,Breakfast,Gingers Express,Salads,370,27,30,16
+Chicken Salad,Breakfast,Gingers Express,Salads,260,0,34,13
+Egg Salad,Breakfast,Gingers Express,Salads,240,3,18,17
+Fruit Salad,Breakfast,Gingers Express,Salads,50,19,1,0
+Fruit and Nut Salad,Breakfast,Gingers Express,Salads,420,34,11,29
+Garden Salad,Breakfast,Gingers Express,Salads,120,17,5,3.5
+Greek Salad,Breakfast,Gingers Express,Salads,110,15,3,3.5
+Greek Salad with Chicken,Breakfast,Gingers Express,Salads,220,15,21,6
+Hummus,Breakfast,Gingers Express,Salads,260,33,11,10
+Pasta Salad,Breakfast,Gingers Express,Salads,160,32,6,0.5
+Potato Salad,Breakfast,Gingers Express,Salads,120,26,2,1
+Tuna Salad,Breakfast,Gingers Express,Salads,180,2,30,4.5
+Gourmet Wrap,Breakfast,Gingers Express,Sandwich/Wrap,530,41,36,24
+Ham Sandwich,Breakfast,Gingers Express,Sandwich/Wrap,400,29,30,18
+Roast Beef Sandwich,Breakfast,Gingers Express,Sandwich/Wrap,430,27,36,19
+Southwest Chicken Wrap,Breakfast,Gingers Express,Sandwich/Wrap,490,56,26,18
+Turkey Sandwich,Breakfast,Gingers Express,Sandwich/Wrap,400,27,33,17
+Veggie Wrap,Breakfast,Gingers Express,Sandwich/Wrap,300,52,10,7
+Beef Barley Soup Large,Lunch,Gingers Express,Soups,110,19,6,0.5
+Beef Barley Soup Small,Lunch,Gingers Express,Soups,70,13,4,0
+Beef Chili Large,Lunch,Gingers Express,Soups,440,11,44,23
+Beef Chili Small,Lunch,Gingers Express,Soups,290,7,29,16
+Brocoli Cheddar Soup Large,Lunch,Gingers Express,Soups,360,9,21,28
+Brocoli Cheddar Soup Small,Lunch,Gingers Express,Soups,240,6,14,19
+Chicken Noodle Soup Large,Lunch,Gingers Express,Soups,100,11,7,1
+Chicken Noodle Soup Small,Lunch,Gingers Express,Soups,60,8,5,0.5
+Cream of Chicken & Rice Large,Lunch,Gingers Express,Soups,190,17,8,9
+Cream of Chicken & Rice Small,Lunch,Gingers Express,Soups,130,11,5,6
+Hearty Potato Bacon Chowder Large,Lunch,Gingers Express,Soups,120,16,5,3.5
+Hearty Potato Bacon Chowder Small,Lunch,Gingers Express,Soups,80,11,3,2
+Minestrone Soup Large,Lunch,Gingers Express,Soups,270,10,11,20
+Minestrone Soup Small,Lunch,Gingers Express,Soups,180,7,7,14
+16 oz Brisk Raspberry Iced Tea,Breakfast,Zebra Lounge,Beverages,160,41,0,0
+16 oz Crush Orange Soda,Breakfast,Zebra Lounge,Beverages,240,68,0,0
+16 oz Diet Pepsi Cola,Breakfast,Zebra Lounge,Beverages,0,0,0,0
+Bacon Breakfast Sandwich,Breakfast,Zebra Lounge,Breakfast Sandwich,590,41,23,35
+PB Banana Crunch,Breakfast,Zebra Lounge,Breakfast Sandwich,780,97,23,39
+Sausage Breakfast Sandwich,Breakfast,Zebra Lounge,Breakfast Sandwich,600,42,28,34
+Tuna Stuffed Tomato,Breakfast,Zebra Lounge,Entrees,280,17,25,12
+Chicken Caesar Salad,Breakfast,Zebra Lounge,Salads,270,28,49,18
+Spinach Salad,Breakfast,Zebra Lounge,Salads,410,44,16,20
+Chicken Ceasar Wrap,Breakfast,Zebra Lounge,Sandwich/Wrap,730,51,36,42
+Southwest Wrap,Breakfast,Zebra Lounge,Sandwich/Wrap,980,55,40,68
+Veggie Wrap,Breakfast,Zebra Lounge,Sandwich/Wrap,440,58,13,21
+Italian Sub,Breakfast,Zebra Lounge,Sandwich/Wrap,580,48,31,32
+Boston Clam Chowder Soup Large,Breakfast,Zebra Lounge,Soups,380,42,12,18
+Boston Clam Chowder Soup Small,Breakfast,Zebra Lounge,Soups,250,28,8,12
+Brocoli Cheese Soup Large,Breakfast,Zebra Lounge,Soups,430,26,16,32
+Brocoli Cheese Soup Small,Breakfast,Zebra Lounge,Soups,260,15,9,19
+Buffalo Chicken Soup Large,Breakfast,Zebra Lounge,Soups,550,33,26,37
+Buffalo Chicken Soup Small,Breakfast,Zebra Lounge,Soups,370,22,17,25

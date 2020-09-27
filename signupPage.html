@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<style>
+		body {
+			background-image: url('https://post.healthline.com/wp-content/uploads/2020/09/healthy-eating-ingredients-732x549-thumbnail.jpg');
+			width: 1000;
+			height: 400;
+			background-repeat: repeat;
+		}
+
+		p {
+			background-color: white;
+			width: 500px;
+			padding: 10px;
+			border: 3px solid maroon;
+			margin: 5;
+			opacity: 0.8;
+		}
+	</style>
+	<title>Sign Up!</title>
+</head>
+
+<body>
+
+	<center>
+		<h1 style="color:maroon"> Sign Up</h1>
+	</center>
+	<center>
+		<p style="color:darkred"> <b> Welcome! Enter your desired username and password below <b></p></center> 
+    <form method="POST" enctype="application/x-www-form-urlencoded">
+
+        <center>
+            <p>
+            <label for="fname">Username:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Password:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <form action="/setupPage" method="get">
+                <button type="submit" formaction="/setupPage"><b>Sign Up<b></button> </p>
+            </form>
+
+        </center>
+    </form>
+    </body>
+
+</html>
